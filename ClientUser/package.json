@@ -1,0 +1,19 @@
+{
+  "name": "clientuser",
+  "version": "1.0.0",
+  "description": "client app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "client",
+    "demo",
+    "app"
+  ],
+  "author": "praveen",
+  "license": "ISC",
+  "dependencies": {
+    "sg_employee_module": "^1.0.0"
+  }
+}
