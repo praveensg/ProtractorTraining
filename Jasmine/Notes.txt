@@ -1,0 +1,36 @@
+Jasmine is a framework for BDD(Behavior Driver development), its a testing framework for JS. It is useful for unit testing ur code and NodeJS projects.
+Most of the unit tests of the components are conducted thro Jasmine.you dont need additional support like Mocha to run the Testing environment. Mocha uses a Test runner called Chai to conduct its tests. Jasmine doesnot neeed any such additional test runners.
+
+BDD is a methodology of developing the software that has a continuous scenario that has to be involved with not only the developers but also quality, user and other business associates. It is helpful for better communication among all of the stake holders of the Application development. 
+JAsmine is used in conjunction with Nodejs.
+
+U should first install NodeJs environment...
+
+steps ---------------
+
+Create a package.json in the folder where ur apps are to be tested... npm init
+
+npm install jasmine-node  -> command for installing jasmine 
+
+jasmine init will create the required config file along with the infrastructure required for testing js code...
+
+-------------
+
+All the specs of your testing code should be made available in the spec folder, else u should configure in the jasmine.json file.
+
+
+------------Protractor -----------------
+
+If you want to perform E2E testing on ur UI applications, we can go for protractorJs framework build on webDriver and executing using Selenium.
+It is well tested and usable for Angular based Application.s This could also be used on non angular apps also. It is based on WebdriverJs framework which allows to automate the browser and perform testing on it. It works like a wrapper over the WEb driver API which contain methods and operations to perform on native events and browser specific drivers athat interact with Web Apps like any normal user would do.
+
+
+Installing Protractor.....
+
+Install NodeJs from nodejs.org
+Install Protractor :     npm install -g protractor. make sure ur folder has package.json. webdriver-manager should be updated so that it downloads any new drivers and supports for the browsers.
+start the selenium server by calling: webdriver-manager start.
+Once the server starts, U r ready to create folders and the scripts for testing ur interface...
+
+
+
